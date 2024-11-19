@@ -9,31 +9,51 @@ def apply_css():
         <style>
         /* General Styles */
         body {
-            background-color: black;
-            color: white;
+            background-color: #121212;
+            color: #e0e0e0;
             font-family: 'Arial', sans-serif;
         }
         h1, h2, h3 {
-            color: red;
+            color: #ff4c4c;
         }
-        .stSelectbox, .stSlider, .stCheckbox {
-            background-color: black;
-            color: white;
+        .stSelectbox, .stSlider, .stCheckbox, .stTextInput {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            border: 1px solid #333;
+            border-radius: 5px;
         }
         .stButton button {
-            background-color: red;
+            background-color: #ff4c4c;
             color: white;
             border-radius: 5px;
             border: none;
+            transition: 0.3s;
         }
         .stButton button:hover {
-            background-color: darkred;
+            background-color: #d63636;
             color: white;
+        }
+        .stDataFrame {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+        /* Sidebar Customization */
+        .css-1d391kg {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+        .css-1d391kg a {
+            color: #ff4c4c;
+        }
+        .css-1d391kg .css-fblp2m {
+            border-radius: 5px;
+            background-color: #121212;
         }
         </style>
         """,
         unsafe_allow_html=True,
     )
+
 
 # Apply CSS
 apply_css()
