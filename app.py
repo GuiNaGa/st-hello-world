@@ -78,6 +78,7 @@ if choice == "Home":
     st.text(
         "Explore the performance trends of F1 drivers, analyze race statistics, and uncover patterns. "
         "Use the navigation menu to explore different sections of the app."
+        "Is recommended to use browser dark mode option in order to visualize the content correctly."
     )
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/1200px-F1.svg.png", use_container_width=True)
     st.caption("Developed by :red[Guillermo Navarro] 😎👽")
