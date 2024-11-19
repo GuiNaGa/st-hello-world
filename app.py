@@ -117,5 +117,5 @@ elif choice == "Visualizations":
     with col4:
         st.write("### Race Entries Over Time")
         fig_bar_time = px.bar(df, x="Decade", y="Race_Entries", title="Race Entries Over Time")
-            st.plotly_chart(fig_bar_time)
+        st.plotly_chart(fig_bar_time)
 
